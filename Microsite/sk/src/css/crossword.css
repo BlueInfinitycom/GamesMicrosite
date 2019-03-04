@@ -1,0 +1,166 @@
+.crossword input {
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 3px;
+	background: #ffffff;
+	background: linear-gradient(top, white 10%, rgba(0,0,0,.1));
+	background: -moz-linear-gradient(top, white 10%, rgba(0,0,0,.1));
+	background: -o-linear-gradient(top, white 10%, rgba(0,0,0,.1));
+	background: -webkit-linear-gradient(top, white 10%, rgba(0,0,0,.1));
+	box-shadow: -1px 3px 2px rgba(0,0,0,.3);
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: 20px;
+	color:#1428a0;
+}
+
+.b-c-ans, .b-w-ans {
+	font-size: 18px;
+}
+
+.b-c-ans span, .b-w-ans span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.b-legend {
+	position: absolute;
+	top: 760px;
+	width: 100%;
+}
+
+.b-endGame {
+	margin-top: 20px;
+}
+
+.crossword {
+	padding-top: 50px;
+	padding-left: 200px;
+	position: relative;
+	top: -30px;
+}
+
+.crossword p {
+	display: inline-block;
+	font-size: 20px;
+}
+
+div[class^="qContainer"] {
+	position: absolute;
+}
+
+
+.qContainer2 {
+	top: 148px;
+	left: 150px;
+	z-index: -1000;
+}
+
+.qContainer3 {
+	top: 247px;
+	left: 184px;
+	z-index: -2000;
+}
+
+.qContainer4 {
+	top: 215px;
+	left: 370px;
+	z-index: -3000;
+}
+
+.qContainer5 {
+	top: 314px;
+	left: 355px;
+	z-index: -4000;
+}
+
+.qContainer6 {
+	top: 413px;
+	left: 115px;
+	z-index: -5000;
+}
+
+.qContainer7 {
+	top: 283px;
+	left: 268px;
+}
+
+.qContainer8 {
+	top: 480px;
+	left: 285px;
+	z-index: -6000;
+}
+
+.q1 {
+	margin:0;
+}
+
+.q2 {
+	margin-right: 5px;
+}
+
+.q3 {
+	margin-right: 38px;
+}
+
+.q4 {
+	margin-bottom: 35px;
+}
+
+.q5 {
+	margin-right: 37px;
+}
+
+.q6 {
+	margin-right: 5px;
+}
+
+.q7 {
+	margin-bottom: 0px;
+}
+
+.q8 {
+	margin-right: 5px;
+}
+
+ .f1, .f2, .f3, .f4, .f5, .f6, .f7, .f8{
+ 	display: block;
+	left: 245px;
+	margin:3px;
+}
+
+ .f9{
+	display: inline-block;
+	left: 177px;
+	top: -198px;
+	margin-right: 33px;
+}
+
+.f10, .f11, .f12, .f13, .f14, .f15, .f16, .f17, .f18{
+	display: inline-block;
+}
+
+.f19, .f20, .f21, .f22, .f23, .f24, .f25, .f26, .f27,.f28{
+	display: inline-block;
+}
+
+.f29, .f30, .f31, .f32, .f33, .f34, .f35, .f36, .f37 {
+	display: block;
+	margin:3px;
+}
+
+.f50 {
+	margin-right: 34px;
+}
+
+.f55, .f56, .f57 {
+	display: block;
+	margin:3px;
+}
+
+.f59 {
+	margin-right: 34px;
+}
